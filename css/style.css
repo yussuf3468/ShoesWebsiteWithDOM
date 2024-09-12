@@ -18,7 +18,6 @@ h1 {
     padding: 0;
     background: #E3E6F3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
-    background-color: #3498DB;
 }
 
 #navbar {
@@ -45,9 +44,22 @@ h2 {
     text-align: center;
 }
 
-#hero {
+#container9 {
     width: 100%;
     height: 100vh;
+}
+
+#container9 #hero{
+    width: 60%; 
+    justify-content: space-between;
+    padding: 15px; 
+    margin-right: 30px; 
+}
+#container9 #hero #h2 {
+    margin-top: 10px;
+}
+#container9 #hero #p1 {
+    margin-left: 20px;
 }
 
 .category {
@@ -83,6 +95,10 @@ h2 {
     text-decoration: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+#container9{
+    display: flex;
 }
 
 #container9 #hero {
@@ -146,6 +162,9 @@ h2 {
     }
     .hpt p{
         text-align: center;
+    }
+    #container9{
+        display: none;
     }
 
     .category {

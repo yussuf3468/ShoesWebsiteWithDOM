@@ -33,3 +33,14 @@ function view(itemCode) {
     let url = `/select.html?${itemCode}`;
     window.open(url, '_blank');
 }
+
+
+let hero = document.getElementById('h2')
+hero.innerHTML = 'Discover Comfort and Style in Every Step'
+let p1 = document.getElementById('p1')
+p1.innerHTML = "Step into a world where fashion meets comfort. Our collection of premium shoes is designed to elevate your style while providing unbeatable comfort for any occasion. Whether you're looking for casual sneakers, elegant heels, or durable running shoes, we've got the perfect pair to suit your every need. Explore our latest arrivals and find your next favorite pair today!"
+
+
+document.getElementById('container9').style.backgroundImage = "url(css/images/g1.jpg)";
+
+document.getElementById('p2').innerHTML = 'From sleek and sophisticated oxfords to rugged and casual boots, male shoes come in a variety of designs, materials, and colors. They can be made from leather, suede, or synthetic materials, and often feature intricate details such as brogue patterns, buckles, or laces'
