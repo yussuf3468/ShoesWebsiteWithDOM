@@ -66,7 +66,6 @@ h2 {
 
 .category .item img {
     width: 100%; 
-    height: 60vh; 
     border-radius: 10px;
 }
 
@@ -122,4 +121,33 @@ h2 {
     height: 30px;
     background-color: #0c36e004;
     border-radius: 20px;
+}
+
+
+/* resposive css */
+@media(max-width:895px){
+    #header{
+        padding: 15px;
+    }
+    #header h1{
+        font-size: small;
+        padding: 5px;
+    }
+    #navbar{
+        margin: 0;
+    }
+
+    #navbar li{
+        padding: 0 5px;
+    }
+    .hpt p{
+        text-align: center;
+    }
+
+    .category {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px;
+        padding: 0 2px;
+    }
 }
