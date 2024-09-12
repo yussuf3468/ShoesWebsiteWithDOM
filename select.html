@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/select.css">
+    <title>Product Details</title>
+</head>
+<body>
+    <div class="container">
+        <section class="item-details">
+            <div class="item">
+                <img id="itemImage" src="">
+                <h3 id="itemName"></h3>
+                <p id="itemPrice"></p>
+                <p id="itemCode"></p>
+            </div>
+            <div id="sectionTwo">
+                <label for="quantity">Enter Quantity</label>
+                <input type="number" id="quantity" min="1" value="1"> 
+                
+                <h4 id="total"></h4>
+
+                <label>Select delivery location</label>
+                <select id="location">
+                    <option value="">Choose location...</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Somalia">Somalia</option>
+                    <option value="UK">UK</option>
+                    <option value="USA">USA</option>
+                </select>
+                
+                <h4 id="outputCountry"></h4>
+                <h4 id="deliveryFee">Delivery Fee: $0</h4>
+                <h4 id="finalttle">Final Total: $0</h4>
+            </div>
+        </section>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/select.js"></script>
+</body>
+</html>
